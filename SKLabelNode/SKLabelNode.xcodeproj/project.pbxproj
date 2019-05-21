@@ -14,7 +14,6 @@
 		CEFA1769225DF97D002C245A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA1768225DF97D002C245A /* Assets.xcassets */; };
 		CEFA176C225DF97D002C245A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA176A225DF97D002C245A /* LaunchScreen.storyboard */; };
 		CEFA18E6225EED23002C245A /* 水平对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA18E5225EED23002C245A /* 水平对齐.png */; };
-		CEFA18E8225EEEEE002C245A /* 垂直对齐.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFA18E7225EEEEE002C245A /* 垂直对齐.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		CEFA176B225DF97D002C245A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFA176D225DF97D002C245A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFA18E5225EED23002C245A /* 水平对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水平对齐.png"; sourceTree = "<group>"; };
-		CEFA18E7225EEEEE002C245A /* 垂直对齐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "垂直对齐.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,6 @@
 		CEFA18E4225EED0B002C245A /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				CEFA18E7225EEEEE002C245A /* 垂直对齐.png */,
 				CEFA18E5225EED23002C245A /* 水平对齐.png */,
 			);
 			path = resource;
@@ -142,7 +139,6 @@
 				CEFA1767225DF97C002C245A /* Main.storyboard in Resources */,
 				CEFA1769225DF97D002C245A /* Assets.xcassets in Resources */,
 				CEFA176C225DF97D002C245A /* LaunchScreen.storyboard in Resources */,
-				CEFA18E8225EEEEE002C245A /* 垂直对齐.png in Resources */,
 				CEFA18E6225EED23002C245A /* 水平对齐.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

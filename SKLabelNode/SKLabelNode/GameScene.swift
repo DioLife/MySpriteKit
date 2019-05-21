@@ -27,21 +27,21 @@ class GameScene: SKScene {
     func study3() {
         let sklabel = SKLabelNode.init(fontNamed: "Chalkduster")
         sklabel.text = "SaoDong"
-        sklabel.horizontalAlignmentMode = .center //相对于原点水平居中
+        sklabel.horizontalAlignmentMode = .center //相对于原点水平居中(中心坚线与position的x重合)
         sklabel.fontSize = 40
         sklabel.position = CGPoint.init(x: size.width / 2, y: size.height - 200)
         self.addChild(sklabel)
         
         let sklabel2 = SKLabelNode.init(fontNamed: "Chalkduster")
         sklabel2.text = "SaoDong"
-        sklabel2.horizontalAlignmentMode = .left //左对齐
+        sklabel2.horizontalAlignmentMode = .left //左对齐(最左边与position的x重合)
         sklabel2.fontSize = 40
         sklabel2.position = CGPoint.init(x: size.width / 2, y: size.height - 300)
         self.addChild(sklabel2)
         
         let sklabel3 = SKLabelNode.init(fontNamed: "Chalkduster")
         sklabel3.text = "SaoDong"
-        sklabel3.horizontalAlignmentMode = .right //右对齐
+        sklabel3.horizontalAlignmentMode = .right //右对齐(最右边与position的x重合)
         sklabel3.fontSize = 40
         sklabel3.position = CGPoint.init(x: size.width / 2, y: size.height - 400)
         self.addChild(sklabel3)
